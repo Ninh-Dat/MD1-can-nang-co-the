@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ninh Văn Tuấn Đạt</title>
+</head>
+<body>
+<SCRIPT>
+    let height = +prompt('nhập chiều cao','');
+    let weight = +prompt('nhập cân nặng', '');
+BMI=weight/(height^2);
+
+if (BMI < 18.5)
+{
+    alert('Underweight')
+}
+else if(BMI >=18.5 && BMI < 25.0)
+{
+    alert('Normal')
+}
+else if(BMI <= 25.0 && BMI <30.0)
+{
+    alert('Overweight')
+}
+else
+{
+    alert('Obese')
+}
+
+</SCRIPT>
+</body>
+</html>
